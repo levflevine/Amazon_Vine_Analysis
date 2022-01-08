@@ -113,5 +113,5 @@ To validate the conclusion above, we need to perform a two-sample T-Test that wi
 
 - **the p-value = 1.78e-20, which is below our significance level**.
 
-**Hence, there there is no statistically significant positivity bias for the reviews in the Vine Program. People, both in and out of the Vine program, tend to provide statistically comparable reviews regardless or whether or not they are being paid.**
+**Hence, we cannot reject the Null Hypothesis and the final conclusion is that there is no statistically significant positivity bias for the reviews in the Vine Program. People, both in and out of the Vine program, tend to provide statistically comparable reviews regardless or whether or not they are being paid.**
 
