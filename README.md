@@ -101,17 +101,17 @@ Summary Statistics for the Vine-participating reviews with a 5-Star Rating
 
 ![Paid_Summary_Stats](/Resources/paid_summary_stats.png)
 
-**Initial Conclusion**. There is some level of positivity bias for the reviews in the Vine Program:  the mean of the ratings in the Vine Program is 4.09/5.00 versus the mean ratings for people, who dont' participate in the Vine program: 3.65/5.00. People in the Vine program, who are getting paid for providign the reviews tend to provide better ratings. This initial conclusion needs to be statistically validated.
+**Initial Conclusion**. There is some level of positivity bias for the reviews in the Vine Program:  the mean of the ratings from the people participating in the Vine Program is 4.09/5.00 versus the mean of the ratings from the people, who dont' participate in the Vine program: 3.65/5.00. People in the Vine program, who are getting paid for providign the reviews, tend to provide better ratings. This initial conclusion needs to be statistically validated.
 
 ### One additional analysis with the dataset to support the conclusion
 
-To validate the conclusion above, we need to perform T-Tests that will help to determine is the ratings for people in and out of the Vine program are statistically different. 
+To validate the conclusion above, we need to perform a two-sample T-Test that will help to determine is the ratings for people in and out of the Vine program are statistically different. 
 
 ![T-Test Summary](/Resources/2-sample-t-test.png)
 
-**Conclusion**: Based on the **0.05 significance level**, there is **no statistical difference** of the review ratings means for the people in the Vine program and the review ratings means for the people not enrolled the Vine program: 
+**Conclusion**: Based on the **0.05 significance level**, there is **no statistical difference** of the review ratings mean for the people in the Vine program and the review ratings mean for the people not enrolled the Vine program: 
 
-- the p-value = 1.12e-20, which is below our significance level.
+- **the p-value = 1.78e-20, which is below our significance level**.
 
 **Hence, there there is no statistically significant positivity bias for the reviews in the Vine Program.**
 
