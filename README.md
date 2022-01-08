@@ -41,7 +41,21 @@ In this project, the Amazon Vine dataset with reviews of **Electronics** product
 
 ![Connection](/Resources/aws_server_connection_from_pgadmin.png)
 
-#### Extract & Transform in PySpark and Load the Data to PostgreSQL
+#### Extract & Transform in PySpark
+
+**Customers DataFrame**
+![Customers_DF](/Resources/c_df_e.png)
+
+**Products DataFrame**
+![Products_DF](/Resources/p_df.png)
+
+**Review Id DataFrame**
+![Review_Id_DF](/Resources/r_df.png)
+
+**Vine DataFrame**
+![Vine_DF](/Resources/v_df.png)
+
+#### Load the Data to PostgreSQL
 
 **Customers Table**
 ![Customers_Table](/Resources/customers_table.png)
