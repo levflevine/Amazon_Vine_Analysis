@@ -105,7 +105,7 @@ Summary Statistics for the Vine-participating reviews with a 5-Star Rating
 
 ### One additional analysis with the dataset to support the conclusion
 
-To validate the conclusion above, we need to perform a two-sample T-Test that will help to determine is the ratings for people in and out of the Vine program are statistically different. 
+To validate the conclusion above, we need to perform a two-sample T-Test that will help to determine if the ratings for people in and out of the Vine program are statistically different. 
 
 ![T-Test Summary](/Resources/2-sample-t-test.png)
 
