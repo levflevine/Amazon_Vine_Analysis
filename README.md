@@ -107,7 +107,7 @@ Summary Statistics for the Vine-participating reviews with a 5-Star Rating
 
 To validate the conclusion above, we need to perform T-Tests that will help to determine is the ratings for people in and out of the Vine program are statistically different. 
 
-![T-Test Summary](/Resources/2-sample_t_test.png)
+![T-Test Summary](/Resources/2-sample-t-test.png)
 
 **Conclusion**: Based on the **0.05 significance level**, there is **no statistical difference** of the review ratings means for the people in the Vine program and the review ratings means for the people not enrolled the Vine program: 
 
