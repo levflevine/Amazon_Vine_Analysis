@@ -79,20 +79,39 @@ Vine Table
 
 ## Results
 
-### How many Vine reviews and non-Vine reviews were there? How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+### Questions
+
+- How many Vine reviews and non-Vine reviews were there? 
+- How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? 
+- What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
+### Answers
 
 ![Results](/Resources/vine_reviews_5_star.png)
 
 ## Summary
 
-## T-Tests on Suspension Coils
+### Is there any positivity bias for reviews in the Vine program
 
-**Problem 1**: Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+Summary Statistics for the non-Vine reviews with a 5-Star Rating
 
-**Solution 1**: Based on the **0.05 significance level**, there is **no statistical difference** of the aggregated manufacturing lots sample from the population mean: 
+![Free_Summary Stats](/Resources/free_summary_stats.png)
 
-- the p-value = 0.06.
+Summary Statistics for the Vine-participating reviews with a 5-Star Rating
 
-The aggregated t-test summary is presented below:
+![Paid_Summary_Stats](/Resources/paid_summary_stats.png)
 
-![Total Summary](/Resources/Total_T.test.png)
+**Initial Conclusion**. There is some level of positivity bias for the reviews in the Vine Program:  the mean of the ratings in the Vine Program is 4.09/5.00 versus the mean ratings for people, who dont' participate in the Vine program: 3.65/5.00. People in the Vine program, who are getting paid for providign the reviews tend to provide better ratings. This initial conclusion needs to be statistically validated.
+
+### One additional analysis with the dataset to support the conclusion
+
+To validate the conclusion above, we need to perform T-Tests that will help to determine is the ratings for people in and out of the Vine program are statistically different. 
+
+![T-Test Summary](/Resources/2-sample_t_test.png)
+
+**Conclusion**: Based on the **0.05 significance level**, there is **no statistical difference** of the review ratings means for the people in the Vine program and the review ratings means for the people not enrolled the Vine program: 
+
+- the p-value = 1.12e-20, which is below our significance level.
+
+**Hence, there there is no statistically significant positivity bias for the reviews in the Vine Program.**
+
