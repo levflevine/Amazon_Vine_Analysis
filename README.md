@@ -44,29 +44,37 @@ In this project, the Amazon Vine dataset with reviews of **Electronics** product
 #### Extract & Transform in PySpark
 
 **Customers DataFrame**
-![Customers_DF](/Resources/c_df_e.png)
+
+![Customers_DF](/Resources/c_df.png)
 
 **Products DataFrame**
+
 ![Products_DF](/Resources/p_df.png)
 
 **Review Id DataFrame**
+
 ![Review_Id_DF](/Resources/r_df.png)
 
 **Vine DataFrame**
+
 ![Vine_DF](/Resources/v_df.png)
 
 #### Load the Data to PostgreSQL
 
 **Customers Table**
+
 ![Customers_Table](/Resources/customers_table.png)
 
 **Products Table**
+
 ![Products_Table](/Resources/products_table.png)
 
 **Review Id Table**
+
 ![Review_Id_Table](/Resources/review_id_table.png)
 
 **Vine Table**
+
 ![Vine_Table](/Resources/vine_table.png)
 
 ## Results
