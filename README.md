@@ -43,47 +43,45 @@ In this project, the Amazon Vine dataset with reviews of **Electronics** product
 
 #### Extract & Transform in PySpark
 
-**Customers DataFrame**
+Customers DataFrame
 
 ![Customers_DF](/Resources/c_df.png)
 
-**Products DataFrame**
+Products DataFrame
 
 ![Products_DF](/Resources/p_df.png)
 
-**Review Id DataFrame**
+Review Id DataFrame
 
 ![Review_Id_DF](/Resources/r_df.png)
 
-**Vine DataFrame**
+Vine DataFrame
 
 ![Vine_DF](/Resources/v_df.png)
 
 #### Load the Data to PostgreSQL
 
-**Customers Table**
+Customers Table
 
 ![Customers_Table](/Resources/customers_table.png)
 
-**Products Table**
+Products Table
 
 ![Products_Table](/Resources/products_table.png)
 
-**Review Id Table**
+Review Id Table
 
 ![Review_Id_Table](/Resources/review_id_table.png)
 
-**Vine Table**
+Vine Table
 
 ![Vine_Table](/Resources/vine_table.png)
 
 ## Results
 
-### How many Vine reviews and non-Vine reviews were there?
+### How many Vine reviews and non-Vine reviews were there? How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
-### How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?
-
-### What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+![Results](/Resources/vine_reviews_5_star.png)
 
 ## Summary
 
